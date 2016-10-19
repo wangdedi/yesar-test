@@ -76,7 +76,7 @@ body{
 	padding: 0;
 	margin:0;
 	font-family: \5FAE\8F6F\96C5\9ED1,\534E\6587\7EC6\9ED1;
-
+	overflow-x: hidden;
 }
 
 .w-nav{
