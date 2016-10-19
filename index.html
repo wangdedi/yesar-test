@@ -17,6 +17,7 @@
 
 	            <a href="#" class="navbar-brand"><img src="images/logo.png" alt="logo"></a>
 	        </div>
+	        <div id="toolR" class="toolR img-re" style="display: none;"></div>
 	        <div id="navbar" class="collapse navbar-collapse navbar-right">
 	            <ul class="nav navbar-nav w-nav">
 	                <li><a href="#sy">首页</a></li>
@@ -61,7 +62,7 @@
 			<h1 style="margin-top: 70px"><img src="images/gy.png" alt="关于我们"></h1>
 
 			
-			<p class="text-left" style="font-size: 17px;width: 50%;margin: 60px auto;color: #4d4d4d;line-height: 30px">
+			<p id="text-gy" class="text-left" style="font-size: 1em;width: 50%;margin: 60px auto;color: #4d4d4d;line-height: 30px">
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	衍视科技创建于2016年5月, 总部位于中国的经济中心上海。衍视科技是一家致力于新一代透明显示产品的科技公司, 公司以车载全息透明显示技术为切入点, 探索网络、信息与商业的完美结合, 打造全息显示与信息时代的高品质产业链。我们为客户提供产品规划设计、仿真模拟、交互等的软硬件服务。
 			</p>
 			
@@ -69,24 +70,24 @@
 	</div>
 	<div class="page3">
 		<div class="row">
-			<div class="col-md-4 imgcol">
+			<div class="col-xs-4 imgcol">
 				<a href="#"><img src="images/imgcp1.png" class="imgcp" alt=""></a>
 			</div>
-			<div class="col-md-4 imgcol">
+			<div class="col-xs-4 imgcol">
 				<a href="#"><img src="images/imgcp2.png" class="imgcp" alt=""></a>
 			</div>
-			<div class="col-md-4 imgcol">
+			<div class="col-xs-4 imgcol">
 				<a href="#"><img src="images/imgcp3.png" class="imgcp" alt=""></a>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4 imgcol">
+			<div class="col-xs-4 imgcol">
 				<a href="#"><img src="images/imgcp4.png" class="imgcp" alt=""></a>
 			</div>
-			<div class="col-md-4 imgcol">
+			<div class="col-xs-4 imgcol">
 				<a href="#"><img src="images/imgcp5.png" class="imgcp" alt=""></a>
 			</div>
-			<div class="col-md-4 imgcol">
+			<div class="col-xs-4 imgcol">
 				<a href="#"><img src="images/imgcp6.png" class="imgcp" alt=""></a>
 			</div>
 		</div>
@@ -103,7 +104,7 @@
 			<h1 style="margin-top: 70px"><img src="images/lx.png" alt="联系我们"></h1>
 
 			
-			<p style="font-size: 17px;width: 50%;margin: 50px auto;color: #4d4d4d;line-height: 30px;margin-bottom: 80px">
+			<p id="text-lx" style="font-size: 17px;width: 50%;margin: 50px auto;color: #4d4d4d;line-height: 30px;margin-bottom: 80px">
 				联系地址：上海浦东新区金科路 2889弄 长泰广场 C座 11楼 <br/>
 				公司名称：衍视电子科技（上海）有限公司 <br/>
 				商务合作： bd@yesartech.com<br/>
@@ -164,6 +165,18 @@
 			</div>
 		</div>
 	<script type="text/javascript">
+		//获取屏幕宽
+		var windWidth=$("body").width();
+		if (windWidth<=768) {
+			$("#text-gy").css("width","80%");
+			$("#text-lx").css("width","80%")
+			$("#toolR").show();
+			$("#toolR").on("click",function(){
+				$("#navbar").toggle()
+			})
+			//alert(windWidth)
+		} else {}
+		
 		$("#myCarousel").carousel('cycle');
 		$("#videoPage").css("height",$("body").height())
 		$("#videoPage1").css("height",$("body").height())
