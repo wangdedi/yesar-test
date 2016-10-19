@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/w-yesar.css">
+	<title>衍视科技</title>
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<nav class="navbar navbar-fixed-top filter80" role="navigation">
+	    <div class="container">
+	        <div class="navbar-header" style="height: 80px;">
+
+	            <a href="#" class="navbar-brand"><img src="images/logo.png" alt="logo"></a>
+	        </div>
+	        <div id="navbar" class="collapse navbar-collapse navbar-right">
+	            <ul class="nav navbar-nav w-nav">
+	                <li><a href="#sy">首页</a></li>
+	                <li><a href="#gy">关于我们</a></li>
+	                <li><a href="#lx">联系我们</a></li>
+	                <li><a href="#jr">加入我们</a></li>
+	            </ul>
+	        </div>
+	    </div>
+	</nav>
+	
+	<div id="sy" class="bg-fan">
+		
+		<div id="myCarousel" class="carousel slide">
+		    <!-- 轮播（Carousel）指标 -->
+		    <ol class="carousel-indicators">
+		        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		        <li data-target="#myCarousel" data-slide-to="1"></li>
+		        
+		    </ol>   
+		    <!-- 轮播（Carousel）项目 -->
+		    <div class="carousel-inner">
+		    	<div style="position: absolute;top:58%;right: 15%;z-index: 200;">
+		    		<p onclick="videoTog('AR')" style="padding: 15% 0;cursor: pointer; width: 300px"></p>
+		    		<p onclick="videoTog('AA')" style="padding: 15% 0;margin-top: 15px;cursor: pointer; width: 300px"></p>
+		    	</div>
+		        <div class="item active">
+		            <img src="images/img1.gif" class="bg-fan-img" alt="First slide">
+		        </div>
+		        <div class="item">
+		            <img src="images/img2.gif" class="bg-fan-img" alt="Second slide">
+		        </div>
+		        
+		    </div>
+		   
+		</div>
+		<!--div><img src="images/img1.gif" class="bg-fan-img" alt=""></div-->
+	</div>
+	<div id="gy" class="page2">
+		<div class="container text-center">
+			
+			<h1 style="margin-top: 70px"><img src="images/gy.png" alt="关于我们"></h1>
+
+			
+			<p class="text-left" style="font-size: 17px;width: 50%;margin: 60px auto;color: #4d4d4d;line-height: 30px">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	衍视科技创建于2016年5月, 总部位于中国的经济中心上海。衍视科技是一家致力于新一代透明显示产品的科技公司, 公司以车载全息透明显示技术为切入点, 探索网络、信息与商业的完美结合, 打造全息显示与信息时代的高品质产业链。我们为客户提供产品规划设计、仿真模拟、交互等的软硬件服务。
+			</p>
+			
+		</div>
+	</div>
+	<div class="page3">
+		<div class="row">
+			<div class="col-md-4 imgcol">
+				<a href="#"><img src="images/imgcp1.png" class="imgcp" alt=""></a>
+			</div>
+			<div class="col-md-4 imgcol">
+				<a href="#"><img src="images/imgcp2.png" class="imgcp" alt=""></a>
+			</div>
+			<div class="col-md-4 imgcol">
+				<a href="#"><img src="images/imgcp3.png" class="imgcp" alt=""></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 imgcol">
+				<a href="#"><img src="images/imgcp4.png" class="imgcp" alt=""></a>
+			</div>
+			<div class="col-md-4 imgcol">
+				<a href="#"><img src="images/imgcp5.png" class="imgcp" alt=""></a>
+			</div>
+			<div class="col-md-4 imgcol">
+				<a href="#"><img src="images/imgcp6.png" class="imgcp" alt=""></a>
+			</div>
+		</div>
+	</div>
+	<div id="jr" class="page4">
+		<div class="ub ub-pc ub-ac" style="height: 450px;">
+			<p style="padding-top: 80px;" class="text-center"><img src="images/jr.png" alt=""></p>
+		</div>
+		
+	</div>
+	<div id="lx" class="page5">
+		<div class="container text-center">
+			
+			<h1 style="margin-top: 70px"><img src="images/lx.png" alt="联系我们"></h1>
+
+			
+			<p style="font-size: 17px;width: 50%;margin: 50px auto;color: #4d4d4d;line-height: 30px;margin-bottom: 80px">
+				联系地址：上海浦东新区金科路 2889弄 长泰广场 C座 11楼 <br/>
+				公司名称：衍视电子科技（上海）有限公司 <br/>
+				商务合作： bd@yesartech.com<br/>
+			</p>
+			
+		</div>
+	</div>
+	<div class="page6">
+		<div class="container text-center">
+
+			
+			<p style="font-size: 17px;color: #fff;line-height: 30px">HOME&nbsp;&nbsp;&nbsp; ABOUT US&nbsp;&nbsp;&nbsp;     JOIN US &nbsp;&nbsp;&nbsp;    CONTACT US <br>© yesartech 2016, All right reserved</p>
+			
+		</div>
+	</div>
+	<div id="videoPage" class="ub-con videoPage" style="display: none">
+		<div class="container" style="background-color: #fff;margin-top: 30px;padding: 10px;box-shadow:1px 1px 5px #000">
+			<div class="ub">
+				<div onclick="videoTog('AR')" class="close img-re"></div>
+				<div class="ub-con start zind999" onclick="playPause(this,'myVideo')"></div>
+				<video id="myVideo" width="100%" controls>
+				  <source src="images/Tarantula_in_Buddy_EV.mp4" type="video/mp4">
+				 
+				  您的浏览器不支持 HTML5 video 标签。
+				</video>
+			</div>
+			<div class="container" style="margin:30px;line-height: 30px;font-size: 16px;">
+				<h2>AR	HUD	核心方案</h2>
+				<p>
+					-以透明显示技术为基础，由电子、光学、控制器、电源等组成的显示设备<br>
+					-将行车参数、GPS位置、自检测等ADAS信息，以图像、字符的形式，通过光学部件投射到驾驶员 <br>
+  					&nbsp;视线正前方<br>
+					-驾驶员透过风档玻璃观察路面时，可以同时看到叠加在外景上的字符、图像等信息<br>
+				</p>
+			</div>
+		</div>
+	</div>
+		<div id="videoPage1" class="ub-con videoPage" style="display: none">
+			<div class="container" style="background-color: #fff;margin-top: 30px;padding: 10px;box-shadow:1px 1px 5px #000">
+				<div class="ub">
+					<div onclick="videoTog('AA')" class="close img-re"></div>
+					<div class="ub-con start zind999" onclick="playPause(this,'myVideo1')"></div>
+					<video id="myVideo1" width="100%" controls>
+					  <source src="images/HUD_GUI_0_8_Demo_1min.mp4" type="video/mp4">
+					 
+					  您的浏览器不支持 HTML5 video 标签。
+					</video>
+				</div>
+				<div class="container" style="margin:30px;line-height: 30px;font-size: 16px;">
+					<h2>AR	HUD	核心方案</h2>
+					<p>
+						-以透明显示技术为基础，由电子、光学、控制器、电源等组成的显示设备<br>
+						-将行车参数、GPS位置、自检测等ADAS信息，以图像、字符的形式，通过光学部件投射到驾驶员 <br>
+	  					&nbsp;视线正前方<br>
+						-驾驶员透过风档玻璃观察路面时，可以同时看到叠加在外景上的字符、图像等信息<br>
+					</p>
+				</div>
+			</div>
+		</div>
+	<script type="text/javascript">
+		$("#myCarousel").carousel('cycle');
+		
+		$("#videoPage").css("height",$("body").height())
+		//视频显示隐藏
+		function videoTog(obj){
+			console.log(obj)
+			if (obj=="AR") {
+				$("#videoPage").toggle();
+			} else {
+				$("#videoPage1").toggle();
+			}
+			
+		}
+		
+		//$("#cli").on("click",function () {
+		//	$("#videoPage").show();
+		//})
+		//视频播放
+		function playPause(obj,name){ 
+			
+			var myVideo=document.getElementById(name);
+			 
+			if (myVideo.paused) {
+				$(obj).attr("class","ub-con zind999")
+				myVideo.play(); 
+			}else {
+				console.log(1235)
+				$(obj).attr("class","ub-con start zind999")
+				myVideo.pause(); 
+			}
+				  
+		} 
+	</script>
+</body>
+</html>
