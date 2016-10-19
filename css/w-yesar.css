@@ -1,3 +1,4 @@
+
 .ub
 {
 	display: -webkit-box !important;
@@ -76,7 +77,7 @@ body{
 	padding: 0;
 	margin:0;
 	font-family: \5FAE\8F6F\96C5\9ED1,\534E\6587\7EC6\9ED1;
-	overflow-x: hidden;
+	overflow-x: hidden;	
 }
 
 .w-nav{
@@ -172,4 +173,13 @@ body{
 }
 .img-re{
 	background-repeat: no-repeat;
+}
+.toolR{
+	position: absolute;
+    right: 40px;
+    top: 20px;
+    width: 30px;
+    height: 40px;
+    background-image: url(../images/tool.png);
+    background-size: cover;
 }
