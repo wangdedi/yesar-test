@@ -1,0 +1,175 @@
+.ub
+{
+	display: -webkit-box !important;
+	display: box !important;
+	position:relative;
+}
+.ub-con
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+.ub-ac
+{
+	-webkit-box-align:center;
+	box-align:center;
+}
+.ub-ae
+{
+	-webkit-box-align:end;
+	box-align:end;
+}
+
+.ub-pc
+{
+	-webkit-box-pack:center;
+	box-pack:center;
+}
+.ub-pe
+{
+	-webkit-box-pack:end;
+	box-pack:end;
+}
+.ub-pj
+{
+	-webkit-box-pack:justify;
+	box-pack:justify;
+}
+
+.ub-ver
+{
+	-webkit-box-orient:vertical;
+	box-orient:vertical;
+}
+
+.ub-f1
+{
+	position:relative;
+	-webkit-box-flex: 1; 
+	box-flex: 1;
+}
+
+.ub-f2
+{
+	position:relative;
+	-webkit-box-flex: 2;
+	box-flex: 2; 
+}
+
+.ub-f3
+{
+	position:relative;
+	-webkit-box-flex: 3;
+	box-flex: 3;
+}
+
+.ub-f4
+{
+	position:relative;
+	-webkit-box-flex: 4;
+	box-flex: 4;
+}
+
+
+body{
+	padding: 0;
+	margin:0;
+	font-family: \5FAE\8F6F\96C5\9ED1,\534E\6587\7EC6\9ED1;
+
+}
+
+.w-nav{
+	font-size: 16px;
+}
+.filter80 {
+    background-color: rgba(245, 245, 245, 0.6);
+}
+.w-nav li{
+	padding: 10px 20px;
+	margin-top: 25px;
+	cursor:pointer;
+}
+.w-nav li a{
+	padding: 0;
+	color: #000;
+}
+.w-nav li a:hover{
+	padding: 0;
+	background:none !important;
+}
+.w-nav li:hover{
+	border-bottom: solid 2px #e74c3b;
+	background-color: none;
+}
+.bg{
+	background-color: #3d3d3d;
+}
+.bg-fan{
+	width: 100%;
+	margin-top:81px;
+}
+.bg-fan-img{
+	width: 100%;
+}
+.page2{
+	padding-bottom: 80px;
+	background-color: #f5f5f5;
+}
+.page3{
+
+}
+.page4{
+	
+	background-image: url("../images/bg1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.page5{
+	background-color: #f5f5f5;
+}
+.page6{
+	padding: 20px 0;
+	background-color: #8a8787;
+}
+.imgcp{
+
+	width: 100%;
+}
+.imgcol{
+	padding: 0;
+}
+.bg2{
+	width: 100%;
+}
+.videoPage{
+	top:120px;
+	background-image: url(../images/bgsp.png);
+	z-index: 1000;
+}
+.start{
+	height: 100%;
+	background-color: rgba(0,0,0,.6);
+	background-image: url(../images/start.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+.zind999{
+	z-index: 999;
+}
+.close{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+
+	top: 8px;
+	right: 8px;
+	z-index: 10000;
+	background-image: url(../images/close.png);
+}
+.img-re{
+	background-repeat: no-repeat;
+}
