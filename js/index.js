@@ -62,9 +62,9 @@ jQuery(document).ready(function($){
 		function videoTog(obj){
 			console.log(obj)
 			if (obj=="AR") {
-				$("#videoPage").toggle();
-			} else {
 				$("#videoPage1").toggle();
+			} else {
+				$("#videoPage").toggle();
 			}
 			
 		}
