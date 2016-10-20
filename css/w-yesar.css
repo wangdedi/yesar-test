@@ -186,3 +186,16 @@ body{
     background-image: url(../images/tool.png);
     background-size: cover;
 }
+.w55{
+	width: 55%;
+	cursor: pointer;
+}
+.w100{
+	width: 100%;
+}
+.hea{
+	right: 7%;top: 16%;position: absolute;z-index: 2;width: 40%;
+}
+.hea p{
+	text-align: center;
+}
