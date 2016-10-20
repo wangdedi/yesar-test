@@ -89,6 +89,7 @@ body{
 .w-nav li{
 	padding: 10px 20px;
 	cursor:pointer;
+	text-align: right;
 }
 .w-nav li a{
 	padding: 0;
