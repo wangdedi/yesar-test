@@ -50,6 +50,9 @@ jQuery(document).ready(function($){
 				$("#navbar").toggle()
 			})
 			//alert(windWidth)
+			$("#bgjr").css("height","200")
+			$($("#bgjr").children("p")[0]).css("padding-top","40px")
+			$($($("#bgjr").children("p")[0]).children("img")[0]).css("height","120")
 		} else {}
 		
 		$("#myCarousel").carousel('cycle');
