@@ -1,5 +1,4 @@
-<SCRIPT language=JavaScript> 
-<!-- 
+
 if (window.Event) 
 document.captureEvents(Event.MOUSEUP); 
 function nocontextmenu() 
@@ -26,5 +25,4 @@ return false;
 } 
 document.oncontextmenu = nocontextmenu; // for IE5+ 
 document.onmousedown = norightclick; // for all others 
-//--> 
-</SCRIPT>
+
