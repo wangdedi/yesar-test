@@ -138,6 +138,12 @@ body{
 	padding: 20px 0;
 	background-color: #8a8787;
 }
+.page6 a:link {
+	color: #fff;
+}
+.pages a:hover{
+	color: #337ab7;
+}
 .imgcp{
 
 	width: 100%;
