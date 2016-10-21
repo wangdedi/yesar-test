@@ -49,11 +49,11 @@ jQuery(document).ready(function($){
 			$("#toolR").on("click",function(){
 				$("#navbar").toggle()
 			})
-			//alert(windWidth)
-			$("#bgjr").css("height","200")
+			//加入我们适配手机大小
+			$("#bgjr").css("height","230")
 			$($("#bgjr").children("p")[0]).css("padding-top","40px")
 			$($($("#bgjr").children("p")[0]).children("img")[0]).css("height","100")
-			$($($("#bgjr").children("p")[1]).children("img")[0]).css("height","30")
+			$($($($("#bgjr").children("p")[1]).children("a")[0]).children("img")[0]).css("height","30")
 		} else {}
 		
 		$("#myCarousel").carousel('cycle');
