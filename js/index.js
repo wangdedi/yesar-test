@@ -1,4 +1,4 @@
-/*
+
 if (window.Event) 
 document.captureEvents(Event.MOUSEUP); 
 function nocontextmenu() 
@@ -25,7 +25,7 @@ return false;
 } 
 document.oncontextmenu = nocontextmenu; // for IE5+ 
 document.onmousedown = norightclick; // for all others 
-*/
+/*
 jQuery(document).ready(function($){
 			 $('#sy1').click(function(){
 			  	$('html,body').animate({scrollTop: '0px'}, 800);
@@ -39,7 +39,7 @@ jQuery(document).ready(function($){
 			 $('#jr1').click(function(){
 			  	$('html,body').animate({scrollTop:$('#jr').offset().top-90}, 800);
 			 });
-});
+});*/
 //获取屏幕宽
 		var windWidth=$("body").width();
 		if (windWidth<=768) {
