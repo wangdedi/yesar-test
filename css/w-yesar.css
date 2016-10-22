@@ -170,7 +170,7 @@ body{
 .zind999{
 	z-index: 999;
 }
-.close{
+.closeV{
 	position: absolute;
 	width: 25px;
 	height: 25px;
