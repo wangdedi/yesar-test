@@ -174,7 +174,7 @@ body{
 	position: absolute;
 	width: 25px;
 	height: 25px;
-
+	cursor: pointer;
 	top: 8px;
 	right: 8px;
 	z-index: 10000;
