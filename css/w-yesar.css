@@ -141,6 +141,9 @@ body{
 .page6 a:link {
 	color: #fff;
 }
+.page6 a:visited {
+	color: #fff;
+}
 .pages a:hover{
 	color: #337ab7;
 }
