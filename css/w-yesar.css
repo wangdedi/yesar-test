@@ -147,12 +147,37 @@ body{
 .pages a:hover{
 	color: #337ab7;
 }
-.imgcp{
-
+.imgcp1{
 	width: 100%;
+	visibility: hidden;
+	z-index: -1;
+}
+.imgcp{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	transition:width 1s, height 1s,left 1s,top 1s;
+	-moz-transition:width 1s, height 1s,left 1s,top 1s, -moz-transform 1s; /* Firefox 4 */
+	-webkit-transition:width 1s, height 1s,left 1s,top 1s, -webkit-transform 1s; /* Safari and Chrome */
+	-o-transition:width 1s, height 1s,left 1s,top 1s, -o-transform 1s; /* Opera */
+	
+}
+.imgcp:hover{
+	left: -10%;
+	top: -10%;
+	width: 120%;
+	transform:rotate(10deg);
+	-moz-transform:rotate(10deg); /* Firefox 4 */
+	-webkit-transform:rotate(10deg); /* Safari and Chrome */
+	-o-transform:rotate(10deg); 
+
+
 }
 .imgcol{
 	padding: 0;
+	overflow: hidden;
+}	padding: 0;
 }
 .bg2{
 	width: 100%;
