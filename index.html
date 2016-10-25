@@ -37,17 +37,17 @@
 	
 	<div class="navbar navbar-fixed-top filter80" role="navigation">
 	    <div class="container">
-	        <div class="navbar-header" style="height: 80px;">
+	        <div class="navbar-header nav-float" style="height: 80px;">
 
 	            <a href="#" class="navbar-brand"><img src="images/logo.png" alt="logo"></a>
 	        </div>
 	        <div id="toolR" class="toolR img-re" style="display: none;"></div>
-	        <div id="navbar" class="collapse navbar-collapse navbar-right navtop25">
-	            <ul class="nav navbar-nav w-nav">
-	                <li><a id="sy1">首页</a></li>
-	                <li><a id="gy1">关于我们</a></li>
-			<li><a id="jr1">加入我们</a></li>
-	                <li><a id="lx1">联系我们</a></li>
+	        <div id="navbar" class="collapse navbar-collapse navbar-right navtop25 nav-float1">
+	            <ul class="nav navbar-nav w-nav nav-float1">
+	                <li id="sy1" class="nav-float"><a>首页</a></li>
+	                <li id="gy1" class="nav-float"><a>关于我们</a></li>
+					<li id="jr1" class="nav-float"><a>加入我们</a></li>
+	                <li id="lx1" class="nav-float"><a>联系我们</a></li>
 	                
 	            </ul>
 	        </div>
@@ -204,7 +204,19 @@
 		</div>
 	<script src="js/index.js"></script>
 	<script type="text/javascript">
-		
+		if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE7.0") { 
+		//alert("IE 7.0"); 
+		} 
+		else if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE8.0") { 
+			//alert("IE 8.0"); 
+			
+			document.getElementById("navbar").style.display="block";
+
+		//alert("IE 8.0"); 
+		} 
+		else if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE9.0") { 
+		//alert("IE 9.0"); 
+		} 
 	</script>
 </body>
 </html>
