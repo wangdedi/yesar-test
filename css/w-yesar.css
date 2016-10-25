@@ -233,3 +233,9 @@ body{
 .hea p{
 	text-align: center;
 }
+.nav-float{
+	float: left;
+}
+.nav-float1{
+	float: right;
+}
