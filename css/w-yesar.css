@@ -245,9 +245,9 @@ body{
 	background-repeat: no-repeat;
 	background-image: url(../images/splj3.png);
 	transition: background 0.5s;
-    -moz-transition: background 0.5s;
-    -webkit-transition: background 0.5s;
-    -o-transition: background 0.5s;
+    	-moz-transition: background 0.5s;
+    	-webkit-transition: background 0.5s;
+    	-o-transition: background 0.5s;
 }
 .splj3:hover{
 	background-image: url(../images/splj2.png);
@@ -256,7 +256,11 @@ body{
 	background-size: auto 100%;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url(../images/splj.png)
+	background-image: url(../images/splj.png);
+	transition: background 0.5s;
+    	-moz-transition: background 0.5s;
+    	-webkit-transition: background 0.5s;
+    	-o-transition: background 0.5s;
 }
 .splj:hover{
 	background-image: url(../images/splj1.png);
