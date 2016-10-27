@@ -239,3 +239,25 @@ body{
 .nav-float1{
 	float: right;
 }
+.splj3{
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../images/splj3.png);
+	transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -o-transition: background 0.5s;
+}
+.splj3:hover{
+	background-image: url(../images/splj2.png);
+}
+.splj{
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../images/splj.png)
+}
+.splj:hover{
+	background-image: url(../images/splj1.png);
+}
