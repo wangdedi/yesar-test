@@ -56,10 +56,13 @@ jQuery(document).ready(function($){
 			$($($($("#bgjr").children("p")[1]).children("a")[0]).children("img")[0]).css("height","30")
 		} else if(windWidth<=1400&&windWidth>1300) {
 			document.getElementById("fontsize1").style.fontSize="30px"
+			document.getElementById("fontsize2").style.fontSize="30px"
 		}else if(windWidth<=1300&&windWidth>1100) {
 			document.getElementById("fontsize1").style.fontSize="25px"
+			document.getElementById("fontsize2").style.fontSize="25px"
 		}else if(windWidth<=1100&&windWidth>798) {
 			document.getElementById("fontsize1").style.fontSize="20px"
+			document.getElementById("fontsize2").style.fontSize="20px"
 		}
 		
 		$("#myCarousel").carousel('cycle');
