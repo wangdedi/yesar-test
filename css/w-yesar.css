@@ -239,31 +239,23 @@ body{
 .nav-float1{
 	float: right;
 }
-.splj3{
-	cursor: pointer;
-	background-size: auto 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-image: url(../images/splj3.png);
-	transition: background 0.5s;
-    	-moz-transition: background 0.5s;
-    	-webkit-transition: background 0.5s;
-    	-o-transition: background 0.5s;
-}
-.splj3:hover{
-	background-image: url(../images/splj2.png);
-}
+
 .splj{
 	cursor: pointer;
-	background-size: auto 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-image: url(../images/splj.png);
-	transition: background 0.5s;
-    	-moz-transition: background 0.5s;
-    	-webkit-transition: background 0.5s;
-    	-o-transition: background 0.5s;
+	position: absolute;
+	left: 23%;
+	height: 100%;
+	line-height: 150%;
+	text-align: center;
+	font-size: 34px;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 6px 0 10px 0;
+	transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-webkit-transition: border 0.5s;
+	-o-transition: border 0.5s;
 }
 .splj:hover{
-	background-image: url(../images/splj1.png);
+	border: 2px solid rgb(0,168,244);
 }
