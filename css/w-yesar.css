@@ -240,6 +240,7 @@ body{
 	float: right;
 }
 .splj3{
+	cursor: pointer;
 	background-size: auto 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -253,6 +254,7 @@ body{
 	background-image: url(../images/splj2.png);
 }
 .splj{
+	cursor: pointer;
 	background-size: auto 100%;
 	background-position: center;
 	background-repeat: no-repeat;
