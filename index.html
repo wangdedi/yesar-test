@@ -35,7 +35,14 @@
 </head>
 <body>
 	<div style="right:0;top:30%;position: fixed;padding:15px;background:rgba(255,255,255,.8);z-index:111111">
-		APP<br>下载
+		
+		<p class="popover-options">
+			<a type="button" class="btn btn-default" title="<h2>Title</h2>"  
+			   data-container="body" data-toggle="popover" data-placement="left" data-content="
+																		 <h4>Popover 中的一些内容 —— options 方法</h4>">
+				APP<br>下载
+			</a>
+		</p>
 	</div>
 	
 	<div class="navbar navbar-fixed-top filter80" role="navigation">
@@ -213,6 +220,7 @@
 		</div>
 	<script src="js/index.js"></script>
 	<script type="text/javascript">
+		$(function () { $(".popover-options a").popover({html : true });});
 		if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE7.0") { 
 		//alert("IE 7.0"); 
 		} 
